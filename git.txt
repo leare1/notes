@@ -29,3 +29,5 @@ git checkout -b dev 创建分支并切换到该分支
 git remote add server git@github.com:leare1/notes.git
 
 git push -u server
+
+git push origin master
