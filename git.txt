@@ -1,0 +1,31 @@
+mkdir git ＃创建工作目录
+
+git init #初始化
+
+touch readme.txt
+
+git add . ＃将文件添加到暂存区
+
+git commit -m "why" #将暂存区的文件提交到本地仓库
+
+git log --pretty=oneline 查看日志
+
+git reset --hard 5cee15b 还原到某个版本
+
+git checkout -- readme.txt 还原某个文件
+
+git branch 查看分支
+
+git branch dev 创建分支
+
+git checkout dev 切换分支
+
+git merge dev 将指定的分支与当前分支合并
+
+git branch -d dev 删除分支
+
+git checkout -b dev 创建分支并切换到该分支
+
+git remote add server git@github.com:leare1/notes.git
+
+git push -u server
